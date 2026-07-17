@@ -6,7 +6,6 @@ Created on Wed Jul  8 17:39:52 2020
 """
 
 
-# I tried changing the amount of testing data (( 30, 50, 70 %) and the number of neighbour(1-7) and the accuracy never surpassed 70%)
 
 
 #OPTION 1 
