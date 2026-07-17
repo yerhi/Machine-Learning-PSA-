@@ -8,16 +8,6 @@ Created on Wed Jul  8 17:39:52 2020
 
 
 
-#OPTION 1 
-#from sklearn import neighbors 
-#from skilearn import datasets
-#knn=neighbors.KKeighborsClassifier(n_neighbors=11)
-#knn.fit(x,y)
-#yhay = knn.predict(x)
-#print 'Predicted value: ' + str(yhat[--1]), 'real target: ' +str(y[-1])
-
-
-
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -37,8 +27,6 @@ features = pd.DataFrame(csv, columns = ['BTTSubAnDiff113','SIMKAPstresstolerance
 
 n_neighbors = 15
 
-# import some data to play with
-# x - feature matrix,  y - variable to be predicted
 
 # we only take the first two features. We could avoid this ugly
 # slicing by using a two-dim dataset
@@ -56,7 +44,7 @@ print(y.shape)
 
 
 # Split dataset into training set and test set
-X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3) # 70% training and 30% test
+X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3) 
 
 
 
