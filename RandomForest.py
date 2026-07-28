@@ -3,6 +3,8 @@
 Created on Thu Jul  9 17:13:11 2020
 
 @author: u0136350
+
+Geraldine Rodriguez Nieto - PSA
 """
 
 from sklearn.ensemble import RandomForestClassifier
@@ -37,12 +39,9 @@ X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
 #Create a Gaussian Classifier
 clf=RandomForestClassifier(n_estimators=100)
 
-#Train the model using the training sets y_pred=clf.predict(X_test)
 clf.fit(X_train,y_train)
 
 y_pred=clf.predict(X_test)
-
-
 
 # Model Accuracy
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
