@@ -3,6 +3,8 @@
 Created on Thu Jul  9 14:04:18 2020
 
 @author: u0136350
+
+Geraldine Rodriguez Nieto
 """
 
 
